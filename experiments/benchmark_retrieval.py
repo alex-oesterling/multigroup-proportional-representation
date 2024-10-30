@@ -240,8 +240,8 @@ def main():
         results = {}
 
         start = time.time()
-        if args.method == "mapr":
-            solver = MAPRLinear(retrieval_labels, curation_labels, s, model=reg_model)
+        if args.method == "mopr":
+            solver = MOPRLinear(retrieval_labels, curation_labels, s, model=reg_model)
 
             num_iter = 10
 

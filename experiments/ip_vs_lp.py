@@ -204,8 +204,8 @@ def main():
 
         results = {}
 
-        if args.method == "mapr_linear":
-            solver = MAPRLinear(retrieval_labels, curation_labels, s, model=reg_model)
+        if args.method == "mopr_linear":
+            solver = MOPRLinear(retrieval_labels, curation_labels, s, model=reg_model)
 
             num_iter = 50
 
@@ -274,8 +274,8 @@ def main():
                 solver.problem.dispose()
             del solver
     
-        elif args.method == "mapr_integer":
-            solver = MAPRInteger(retrieval_labels, curation_labels, s, model=reg_model)
+        elif args.method == "mopr_integer":
+            solver = MOPRInteger(retrieval_labels, curation_labels, s, model=reg_model)
 
             num_iter = 50
 

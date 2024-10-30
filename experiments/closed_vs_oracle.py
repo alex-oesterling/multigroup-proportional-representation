@@ -206,12 +206,12 @@ def main():
 
         results = {}
 
-        if args.method == "mapr_regression":
+        if args.method == "mopr_regression":
             if args.functionclass != "linearregression":
                 print("closed lp only supports linear regression")
                 exit()
             # solver = GurobiLP(s, retrieval_labels, curation_set=curation_labels, model=reg_model)
-            solver = MAPRLinear(retrieval_labels, curation_labels, s, model=reg_model)
+            solver = MOPRLinear(retrieval_labels, curation_labels, s, model=reg_model)
             closed_form_solver = LinearClosedFormSolver(retrieval_labels, curation_labels, s)
             closed_reps = []
             closed_rounded_reps = []
@@ -273,7 +273,7 @@ def main():
             if solver.problem:
                 solver.problem.dispose()
             del solver
-        elif args.method == "mapr_closed":
+        elif args.method == "mopr_closed":
             if args.functionclass != "linearregression":
                 print("linearregression required for closed lp")
                 exit()
