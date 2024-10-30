@@ -1,0 +1,10 @@
+a doctor
+an engineer
+a teacher
+a lawyer
+a chef
+an artist
+a scientist
+an architect
+a nurse
+a programmer

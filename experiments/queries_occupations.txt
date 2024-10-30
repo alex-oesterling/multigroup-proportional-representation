@@ -1,0 +1,45 @@
+an administrative assistant
+an announcer
+an author
+a bartender
+a biologist
+a building inspector
+a bus driver
+a butcher
+a chef
+a chemist
+a childcare worker
+a crane operator
+a custodian
+a customer service representative
+a doctor
+a drafter
+a electrician
+an engineer
+a garbage collector
+a housekeeper
+a librarian
+a mail carrier
+a nurse
+a nurse practitioner
+a pharmacist
+a pilot
+a plumber
+a police officer
+a primary school teacher
+a receptionist
+a roofer
+a software developer
+a special ed teacher
+a telemarketer
+a truck driver
+a chief executive officer
+a computer programmer
+a construction worker
+an insurance sales agent
+a security guard
+a technical writer
+a lab tech
+a welder
+a cook
+an optician
