@@ -1,4 +1,4 @@
-# Multi-Group Proportional Representation
+# Multi-Group Proportional Representation in Retrieval
 ---
 Codebase for the paper ["Multi-Group Proportional Representation in Retrieval"](https://arxiv.org/abs/2407.08571) by Alex Oesterling*, Claudio Mayrink Verdun*, Carol Xuan Long, Alexander Glynn, Lucas Monteiro Paes, Sajani Vithana, Martina Cardone, and Flavio P. Calmon
 
