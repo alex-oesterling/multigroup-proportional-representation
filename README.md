@@ -1,6 +1,6 @@
 # Multi-Group Proportional Representation
 ---
-Codebase for the paper ["Multi-Group Proportional Representation"](https://arxiv.org/abs/2407.08571) by Alex Oesterling*, Claudio Mayrink Verdun*, Carol Xuan Long, Alex Glynn, Lucas Monteiro Paes, Sajani Vithana, Martina Cardone, and Flavio P. Calmon
+Codebase for the paper ["Multi-Group Proportional Representation in Retrieval"](https://arxiv.org/abs/2407.08571) by Alex Oesterling*, Claudio Mayrink Verdun*, Carol Xuan Long, Alex Glynn, Lucas Monteiro Paes, Sajani Vithana, Martina Cardone, and Flavio P. Calmon
 
 ## Installation
 To use MPR clone the repository and install it as a package:
